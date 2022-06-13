@@ -1,0 +1,61 @@
+/*Background :) */ 
+html {
+    background: rgb(255,0,0);
+    background: linear-gradient(157deg, rgba(255,0,0,1) 0%, rgba(136,69,252,1) 100%);  
+  }
+  html, body {
+      margin: 0;
+      height: 100%;
+/*Top Navigation Bar */ 
+  }
+  .topnav {
+      background-color:  #050607;
+      overflow: hidden;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #301616;
+      text-align: center;
+      padding: 4px 15px;
+      text-decoration: none;
+      font-size: 10px;
+    }
+    
+    .topnav a:hover {
+      background-color: #9b9b9b;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #183c54;
+      color: white;
+    }
+/*Link Colors */ 
+    a:link {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+/*Rounded corners */ 
+h1 {
+text-shadow: 0px 3px #000000;
+}
